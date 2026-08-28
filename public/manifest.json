@@ -1,0 +1,16 @@
+{
+  "name": "TECSA • Reportes Vaca Muerta",
+  "short_name": "TECSA Obra",
+  "description": "Partes Diarios de Obra Offline con IA para Vaca Muerta",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
