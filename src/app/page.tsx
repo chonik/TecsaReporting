@@ -507,7 +507,7 @@ export default function CampoPage() {
                 </div>
                 <div>
                   <h3 className="text-xs font-bold text-slate-900">Dictar Avance por Voz</h3>
-                  <p className="text-[10px] text-slate-400">Gemini 3.5 Transcribe</p>
+                  <p className="text-[10px] text-slate-400">OpenAI Whisper-1</p>
                 </div>
               </div>
 
@@ -544,7 +544,7 @@ export default function CampoPage() {
                   <div className="flex justify-between items-center">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Transcripción de voz:</span>
                     <span className="text-[10px] text-emerald-700 font-bold bg-emerald-50 px-1.5 py-0.2 rounded border border-emerald-200">
-                      Gemini 3.5 ✓
+                      OpenAI Whisper ✓
                     </span>
                   </div>
                   <p className="italic text-slate-700 bg-white p-2 rounded-lg border border-slate-200 text-[11px] leading-relaxed mt-1">

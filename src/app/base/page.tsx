@@ -469,7 +469,7 @@ export default function BasePage() {
                             <div className="bg-white p-3.5 rounded-xl border border-slate-200 space-y-2">
                               <div className="flex items-center gap-1.5 text-amber-700 font-bold text-[11px]">
                                 <Volume2 className="w-4 h-4" />
-                                <span>Audio Transcrito (Gemini 3.5):</span>
+                                <span>Audio Transcrito (OpenAI Whisper):</span>
                               </div>
                               <p className="italic text-slate-600 text-[11px] leading-relaxed bg-slate-50 p-2.5 rounded-lg border border-slate-100">
                                 {report.audioTranscript}
