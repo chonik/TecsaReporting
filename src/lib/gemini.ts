@@ -73,7 +73,7 @@ Devolvé el resultado en JSON según el schema.
 `;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3.5-flash-lite",
+    model: "gemini-3.8-flash",
     contents: prompt,
     config: {
       responseMimeType: "application/json",
@@ -152,7 +152,7 @@ REGLAS ESTRICTAS DE EXTRACCIÓN Y VINCULACIÓN:
 Devolvé el resultado en JSON estructurado.
 `;
 
-  const modelsToTry = ["gemini-3.5-flash-lite", "gemini-3.7-flash"];
+  const modelsToTry = ["gemini-3.8-flash"];
   let lastError: any = null;
 
   for (const modelName of modelsToTry) {
